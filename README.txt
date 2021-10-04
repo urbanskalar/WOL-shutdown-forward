@@ -1,0 +1,2 @@
+1. WOL_forwarder.c - sprejme WOL paketek in ga forwardira na broadcast
+2. WOL_shutdown.c - sprejme WOL paketek in izvede poweroff računalnika. Kliče naj se jo tako: /path/to/program/WOL_shutdown ime_omreznega_adapterja. Najbolje da se ustvari systemd service.
